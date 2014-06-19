@@ -4,7 +4,7 @@ import akka.actor.{Props, Actor, ActorSystem}
 import akka.testkit.{TestKit, TestActorRef, ImplicitSender}
 import org.scalatest.{WordSpecLike, BeforeAndAfterAll}
 import org.scalatest.Matchers
-
+import org.scalatest.ParallelTestExecution
 
 class TestEventSource extends Actor 
                         with ProductionEventSource {
