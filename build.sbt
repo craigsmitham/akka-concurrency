@@ -16,3 +16,5 @@ resolvers += "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases"
     "com.typesafe.akka" %% "akka-testkit" % "2.2.3",
     "com.typesafe.akka" %% "akka-actor" % "2.2.3"
   )
+
+sublimeProjectName := "AkkaBook"
